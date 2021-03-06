@@ -181,6 +181,7 @@ img {
 .show{
   right: 0;
 }
+
 .active{
   color: var(--first-color)
 }
