@@ -28,7 +28,7 @@
   --small-font-size: .75rem;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   :root {
     --big-font-size: 6rem;
     --h1-font-size: 2.25rem;
@@ -135,7 +135,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 @media screen and (max-width: 768px){
@@ -187,10 +186,51 @@ img {
 }
 
 /*===== HOME =====*/
+.home{
+  background-color: var(--gray-color);
+}
 
+.home__container{
+  height: calc(100vh - var(--header-height));
+}
+
+.home__data{
+  padding-top: 6rem;
+}
+
+.home__title{
+  align-self: center;
+  font-size: var(--big-font-size);
+  line-height: 1;
+  letter-spacing: .5rem;
+  margin-bottom: 4rem;
+}
+
+.home__title span{
+  font-size: var(--h1-font-size);
+}
+
+.home__img{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 260px;
+}
 
 /*BUTTONS*/
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  padding: 1rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi);
+  transition: .3s;
+}
 
+.button:hover{
+  background-color: var(--first-color-alt);
+}
 
 /*===== COLLECTION =====*/
 
