@@ -1,27 +1,27 @@
-/*===== MENU SHOW =====*/ 
+/*===== MENU SHOW =====*/
 const showMenu = (toggleId, navId) => {
-    const toggle = document.getElementById(toggleId),
-        nav = document.getElementById(navId)
-    
-    if (toggle && nav) {
-        toggle.addEventListener('click', () => {
-            nav.classList.toggle('show')
-        })
-    }
-}
+  const toggle = document.getElementById(toggleId),
+    nav = document.getElementById(navId);
 
-showMenu('nav-toggle','nav-menu')
+  if (toggle && nav) {
+    toggle.addEventListener("click", () => {
+      nav.classList.toggle("show");
+    });
+  }
+};
+
+showMenu("nav-toggle", "nav-menu");
 /*===== REMOVE MENU MOBILE =====*/
-const navLink = document.querySelectorAll('.nav__link')
+const navLink = document.querySelectorAll(".nav__link");
 
 function linkAction() {
-    //Active link
-    navLink.forEach(n => n.classList.remove('active'))
-    this.classList.add('active')
+  //Active link
+  navLink.forEach((n) => n.classList.remove("active"));
+  this.classList.add("active");
 
-    //Remove menu mobile
-    const navMenu = document.getElementById('nav-menu')
-    navMenu.classList.remove('show')
+  //Remove menu mobile
+  const navMenu = document.getElementById("nav-menu");
+  navMenu.classList.remove("show");
 }
 
-navLink.forEach(n => n.addEventListener('click', linkAction))
+navLink.forEach((n) => n.addEventListener("click", linkAction));
