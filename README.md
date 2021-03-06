@@ -1,0 +1,1 @@
+Creating a small e-Commerce project for a friend using HTML, CSS and Vanilla Javascript. Let's see how it goes.
