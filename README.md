@@ -1,8 +1,5 @@
-This is a small Catalog website for a store, writtemn in HTMl, CSS and Javascript. I tried to use minimal designs and also make use of spaces and colors based off what the client requested.
-This is a sample code of what i built. I used typeform to collect data and send an email to the store owner.
-I am currently working on designing and implementing the actual catalog in a pdf file that is easy to download.
+This is a catalog website for a client who just wanted a simple minimal design to connect him with clients and also update his products and services. 
+The website uses HTML, CSS and Javascript as it's main languages. I employed typeform to manage client and customer requests to make it easier for him to answer questions.
+The Client also insisted on not needing to manage payment on the website, so i didn't need to implement that. The client will also take care of sending tracking details to the user from the details in typeform which took less than 10 minutes to set up.
 
-
-
-
------David.codes------>
+Feel free to uses this code and customize it how you see fit
